@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sed -i '/^### DATA ###$/q' wofi-emoji
+sed -i '/^### DATA ###$/q' hyprpicker-emoji
 
 curl https://raw.githubusercontent.com/muan/emojilib/v4.0.0/dist/emoji-en-US.json |
   jq --raw-output '. | to_entries | .[] | .key + " " + (.value | join(" ") | sub("_"; " "; "g"))' \
