@@ -4,16 +4,16 @@ Simple emoji selector for Wayland using [hyprlauncher](https://wiki.hypr.land/Hy
 
 ![Screenshot of original wofi-emoji in action](https://i.imgur.com/8XiUoh6.png)
 
-## Usage with Sway
+## Usage with Hyprland
 
 Download [hyprpicker-emoji](https://github.com/jone-cmd/hyprpicker-emoji/raw/refs/heads/master/hyprpicker-emoji), ensure it's executable and somewhere in your `$PATH`.
 
 Add a shortcut key in your [Hyprland](https://hypr.land/) config:
 
-```
-# ~/.config/sway/config
+```hyprlang
+# ~/.config/hypr/hyprland.conf
 
-bindsym Mod4+e exec path/to/hyprpicker-emoji
+bind = Super Shift, E, exec, path/to/hyprpicker-emoji
 ```
 
 ## Credits
