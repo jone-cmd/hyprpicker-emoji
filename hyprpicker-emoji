@@ -2,7 +2,8 @@
 set -euo pipefail
 
 EMOJI="$(sed '1,/^### DATA ###$/d' $0 | hyprlauncher -m | cut -d ' ' -f 1 | tr -d '\n')"
-wtype "$EMOJI"; wl-copy "$EMOJI"
+wtype "$EMOJI"
+wl-copy "$EMOJI"
 exit
 ### DATA ###
 😀 grinning face face smile happy joy :D grin smiley
@@ -44,7 +45,7 @@ exit
 😏 smirking face face smile mean prank smug sarcasm flirting sexual smirk suggestive
 😒 unamused face indifference bored straight face serious sarcasm unimpressed skeptical dubious ugh side eye dissatisfied meh unhappy
 🙄 face with rolling eyes face eyeroll frustrated eye roll
-😬 grimacing face face grimace teeth #1 best awkward eek foot friend mouth mutual nervous snapchat
+😬 grimacing face face grimace teeth awkward eek nervous
 🤥 lying face face lie pinocchio liar long nose
 😌 relieved face face relaxed phew massage happiness content pleased whew
 😔 pensive face face sad depressed upset dejected sadface sorrowful
@@ -66,7 +67,7 @@ exit
 🥳 partying face face celebration woohoo birthday hat horn party
 😎 smiling face with sunglasses face cool smile summer beach sunglass best bright eye eyewear friends glasses mutual snapchat sun weather
 🤓 nerd face face nerdy geek dork glasses smiling
-🧐 face with monocle face stuffy wealthy rich
+🧐 face with monocle face stuffy wealthy rich exploration inspection
 😕 confused face face indifference huh weird hmmm :/ meh nonplussed puzzled s
 😟 worried face face concern nervous :( sad sadface
 🙁 slightly frowning face face frowning disappointed sad upset frown unhappy
@@ -99,12 +100,12 @@ exit
 👿 angry face with horns devil angry horns demon evil fairy fantasy goblin imp purple sad tale
 💀 skull dead skeleton creepy death dead body danger face fairy grey halloween monster poison tale
 ☠️ skull and crossbones poison danger deadly scary death pirate evil body face halloween monster
-💩 pile of poo hankey shitface fail turd shit comic crap dirt dog dung face monster poop smiling
-🤡 clown face face
-👹 ogre monster red mask halloween scary creepy devil demon japanese ogre creature face fairy fantasy oni tale
+💩 pile of poo hankey shitface fail turd shit comic crap dirt dog dung face monster poop smiling bad needs improvement
+🤡 clown face face mock
+👹 ogre monster red mask halloween scary creepy devil demon japanese ogre creature face fairy fantasy oni tale shrek
 👺 goblin red evil mask monster scary creepy japanese goblin creature face fairy fantasy long nose tale tengu
 👻 ghost halloween spooky scary creature disappear face fairy fantasy ghoul monster tale
-👽 alien UFO paul weird outer space creature et extraterrestrial face fairy fantasy monster tale
+👽 alien UFO paul weird outer space creature et extraterrestrial face fairy fantasy monster tale external
 👾 alien monster game arcade play creature extraterrestrial face fairy fantasy invader retro space tale ufo video
 🤖 robot computer machine bot face monster
 😺 grinning cat animal cats happy smile face mouth open smiley smiling
@@ -118,7 +119,7 @@ exit
 😾 pouting cat animal cats face grumpy
 🙈 see no evil monkey monkey animal nature haha blind covering eyes face forbidden gesture ignore mizaru not prohibited
 🙉 hear no evil monkey animal monkey nature covering deaf ears face forbidden gesture kikazaru not prohibited
-🙊 speak no evil monkey monkey animal nature omg covering face forbidden gesture hush iwazaru mouth mute not no speaking prohibited
+🙊 speak no evil monkey monkey animal nature omg covering face forbidden gesture hush iwazaru mouth mute not no speaking prohibited ignore
 💋 kiss mark face lips love like affection valentines heart kissing lipstick romance
 💌 love letter email like affection envelope valentines heart mail note romance
 💘 heart with arrow love like heart affection valentines cupid lovestruck romance
@@ -142,13 +143,13 @@ exit
 🤍 white heart pure
 💯 hundred points score perfect numbers century exam quiz test pass hundred 100 full keep symbol
 💢 anger symbol angry mad comic pop sign vein
-💥 collision bomb explode explosion blown bang boom comic impact red spark symbol
-💫 dizzy star sparkle shoot magic circle comic symbol
+💥 collision bomb explode explosion blown bang boom comic impact red spark symbol break
+💫 dizzy star sparkle shoot magic circle comic symbol animations transitions
 💦 sweat droplets water drip oops comic drops plewds splashing symbol workout
 💨 dashing away wind air fast shoo fart smoke puff blow comic dash gust running steam symbol vaping
 🕳️ hole embarrassing
 💣 bomb boom explode explosion terrorism comic
-💬 speech balloon bubble words message talk chatting chat comic comment dialog
+💬 speech balloon bubble words message talk chatting chat comic comment dialog text literals
 👁️‍🗨️ eye in speech bubble info am i witness
 🗨️ left speech bubble words message talk chatting dialog
 🗯️ right anger bubble caption speech thinking mad angry balloon zag zig
@@ -288,7 +289,7 @@ exit
 🧑‍🔬 scientist chemistry biologist chemist engineer lab mathematician physicist technician
 👨‍🔬 man scientist biologist chemist engineer physicist man human lab male mathematician men research technician
 👩‍🔬 woman scientist biologist chemist engineer physicist woman human female lab mathematician research technician women
-🧑‍💻 technologist computer coder engineer laptop software technology
+🧑‍💻 technologist computer coder engineer laptop software technology developer
 👨‍💻 man technologist coder developer engineer programmer software man human laptop computer blogger male men technology
 👩‍💻 woman technologist coder developer engineer programmer software woman human laptop computer blogger female technology women
 🧑‍🎤 singer song artist performer actor entertainer music musician rock rocker rockstar star
@@ -312,10 +313,10 @@ exit
 🕵️ detective human spy eye or private sleuth
 🕵️‍♂️ man detective crime male men sleuth spy
 🕵️‍♀️ woman detective human spy detective female woman sleuth women
-💂 guard protect british foot guardsman
+💂 guard protect british guardsman
 💂‍♂️ man guard uk gb british male guy royal guardsman men
 💂‍♀️ woman guard uk gb british female royal woman guardsman guardswoman women
-👷 construction worker labor build builder face hard hat helmet safety
+👷 construction worker labor build builder face hard hat helmet safety add ci update ci
 👷‍♂️ man construction worker male human wip guy build construction worker labor helmet men
 👷‍♀️ woman construction worker female human wip build construction worker labor woman helmet women
 🤴 prince boy man male crown royal king fairy fantasy men tale
@@ -486,7 +487,7 @@ exit
 👩‍👧‍👧 family woman girl girl home parent people human children child daughters female mother two women
 🗣️ speaking head user person human sing say talk face mansplaining shout shouting silhouette speak
 👤 bust in silhouette user person human shadow
-👥 busts in silhouette user person human group team bust people shadows silhouettes two users
+👥 busts in silhouette user person human group team bust people shadows silhouettes two users contributors
 👣 footprints feet tracking walking beach body clothing footprint footsteps print tracks
 🐵 monkey face animal nature circus head
 🐒 monkey animal nature banana circus cheeky
@@ -603,7 +604,7 @@ exit
 🌻 sunflower nature plant fall flower sun yellow
 🌼 blossom nature flowers yellow blossoming flower daisy flower plant
 🌷 tulip flowers plant nature summer spring flower
-🌱 seedling plant nature grass lawn spring sprout sprouting young
+🌱 seedling plant nature grass lawn spring sprout sprouting young seed
 🌲 evergreen tree plant nature fir pine wood
 🌳 deciduous tree plant nature rounded shedding wood
 🌴 palm tree plant vegetable nature summer beach mojito tropical coconut
@@ -667,7 +668,7 @@ exit
 🌯 burrito food mexican wrap
 🥙 stuffed flatbread food flatbread stuffed gyro mediterranean doner falafel kebab pita sandwich shawarma
 🧆 falafel food mediterranean chickpea falfel meatball
-🥚 egg food chicken breakfast
+🥚 egg food chicken breakfast easter egg
 🍳 cooking food breakfast kitchen egg skillet fried frying pan
 🥘 shallow pan of food food cooking casserole paella skillet curry
 🍲 pot of food food meat soup hot pot bowl stew
@@ -677,7 +678,7 @@ exit
 🧈 butter food cook dairy
 🧂 salt condiment shaker
 🥫 canned food food soup tomatoes can preserve tin tinned
-🍱 bento box food japanese box lunch
+🍱 bento box food japanese box lunch assets
 🍘 rice cracker food japanese snack senbei
 🍙 rice ball food japanese onigiri omusubi
 🍚 cooked rice food asian boiled bowl steamed
@@ -739,7 +740,7 @@ exit
 🌍 globe showing europe africa globe world earth international planet
 🌎 globe showing americas globe world USA earth international planet
 🌏 globe showing asia australia globe world east earth international planet
-🌐 globe with meridians earth international world internet interweb i18n global web wide www
+🌐 globe with meridians earth international world internet interweb i18n global web wide www internationalization localization
 🗺️ world map location direction travel
 🗾 map of japan nation country japanese asia silhouette
 🧭 compass magnetic navigation orienteering
@@ -754,8 +755,8 @@ exit
 🏞️ national park photo environment nature
 🏟️ stadium photo place sports concert venue grandstand sport
 🏛️ classical building art culture history
-🏗️ building construction wip working progress crane
-🧱 brick bricks clay construction mortar wall
+🏗️ building construction wip working progress crane architectural
+🧱 brick bricks clay construction mortar wall infrastructure
 🏘️ houses buildings photo building group house
 🏚️ derelict house abandon evict broken building abandoned haunted old
 🏠 house building home
@@ -823,7 +824,7 @@ exit
 🚗 automobile red transportation vehicle car side
 🚘 oncoming automobile car vehicle transportation front
 🚙 sport utility vehicle transportation vehicle blue campervan car motorhome recreational rv
-🚚 delivery truck cars transportation vehicle
+🚚 delivery truck cars transportation vehicle resources
 🚛 articulated lorry vehicle cars transportation express green semi truck
 🚜 tractor vehicle car farming agriculture farm
 🏎️ racing car sports race fast formula f1 one
@@ -840,11 +841,11 @@ exit
 🛤️ railway track train transportation
 🛢️ oil drum barrell
 ⛽ fuel pump gas station petroleum diesel fuelpump petrol
-🚨 police car light police ambulance 911 emergency alert error pinged law legal beacon cars car’s emergency light flashing revolving rotating siren vehicle
+🚨 police car light police ambulance 911 emergency alert error pinged law legal beacon cars car’s emergency light flashing revolving rotating siren vehicle warning
 🚥 horizontal traffic light transportation signal
 🚦 vertical traffic light transportation driving semaphore signal
 🛑 stop sign stop octagonal
-🚧 construction wip progress caution warning barrier black roadwork sign striped yellow
+🚧 construction wip progress caution warning barrier black roadwork sign striped yellow work in progress
 ⚓ anchor ship ferry sea boat admiralty fisherman pattern tool
 ⛵ sailboat ship summer transportation water sailing boat dinghy resort sea vehicle yacht
 🛶 canoe boat paddle water ship
@@ -864,7 +865,7 @@ exit
 🚠 mountain cableway transportation vehicle ski cable gondola
 🚡 aerial tramway transportation vehicle ski cable car gondola ropeway
 🛰️ satellite communication gps orbit spaceflight NASA ISS artificial space vehicle
-🚀 rocket launch ship staffmode NASA outer space outer space fly shuttle vehicle
+🚀 rocket launch ship staffmode NASA outer space outer space fly shuttle vehicle deploy
 🛸 flying saucer transportation vehicle ufo alien extraterrestrial fantasy space
 🛎️ bellhop bell service hotel
 🧳 luggage packing travel suitcase
@@ -938,12 +939,12 @@ exit
 ☂️ umbrella weather spring clothing open rain
 ☔ umbrella with rain drops rainy weather spring clothing drop raining
 ⛱️ umbrella on ground weather summer beach parasol rain sun
-⚡ high voltage thunder weather lightning bolt fast zap danger electric electricity sign thunderbolt
+⚡ high voltage thunder weather lightning bolt fast zap danger electric electricity sign thunderbolt speed
 ❄️ snowflake winter season cold weather christmas xmas snow snowing
 ☃️ snowman winter season cold weather christmas xmas frozen snow snowflakes snowing
 ⛄ snowman without snow winter season cold weather christmas xmas frozen without snow frosty olaf
 ☄️ comet space
-🔥 fire hot cook flame burn lit snapstreak tool
+🔥 fire hot cook flame burn lit snapstreak tool remove
 💧 droplet water drip faucet spring cold comic drop sweat weather
 🌊 water wave sea water wave nature tsunami disaster beach ocean waves weather
 🎃 jack o lantern halloween light pumpkin creepy fall activity celebration entertainment gourd
@@ -991,7 +992,7 @@ exit
 🏸 badminton sports birdie game racquet shuttlecock
 🥊 boxing glove sports fighting
 🥋 martial arts uniform judo karate taekwondo
-🥅 goal net sports
+🥅 goal net sports catch
 ⛳ flag in hole sports business flag hole summer golf
 ⛸️ ice skate sports skating
 🎣 fishing pole food hobby summer entertainment fish rod
@@ -1022,7 +1023,7 @@ exit
 🎴 flower playing cards game sunset red activity card deck entertainment hanafuda hwatu japanese of cards
 🎭 performing arts acting theater drama activity art comedy entertainment greek logo mask masks theatre theatre masks tragedy
 🖼️ framed picture photography art frame museum painting
-🎨 artist palette design paint draw colors activity art entertainment museum painting
+🎨 artist palette design paint draw colors activity art entertainment museum painting improve
 🧵 thread needle sewing spool string crafts
 🧶 yarn ball crochet knit crafts
 👓 glasses fashion accessories eyesight nerdy dork geek clothing eye eyeglasses eyewear
@@ -1065,7 +1066,7 @@ exit
 🧢 billed cap cap baseball clothing hat
 ⛑️ rescue worker s helmet construction build aid cross face hat white worker’s
 📿 prayer beads dhikr religious clothing necklace religion rosary
-💄 lipstick female girl fashion woman cosmetics gloss lip makeup
+💄 lipstick female girl fashion woman cosmetics gloss lip makeup style
 💍 ring wedding propose marriage valentines diamond fashion jewelry gem engagement engaged romance
 💎 gem stone blue ruby diamond jewelry gemstone jewel romance
 🔇 muted speaker sound volume silence quiet cancellation mute off silent stroke
@@ -1093,7 +1094,7 @@ exit
 🎻 violin music instrument orchestra symphony activity entertainment quartet smallest string world’s
 🪕 banjo music instructment activity entertainment instrument stringed
 🥁 drum music instrument drumsticks snare
-📱 mobile phone technology apple gadgets dial cell communication iphone smartphone telephone
+📱 mobile phone technology apple gadgets dial cell communication iphone smartphone telephone responsive design
 📲 mobile phone with arrow iphone incoming call calling cell communication left pointing receive rightwards telephone
 ☎️ telephone technology communication dial black phone rotary
 📞 telephone receiver technology communication dial call handset phone
@@ -1118,11 +1119,11 @@ exit
 🎬 clapper board movie film record activity clapboard director entertainment slate
 📺 television technology program oldschool show entertainment tv video
 📷 camera gadgets photography digital entertainment photo video
-📸 camera with flash photography gadgets photo video
+📸 camera with flash photography gadgets photo video snapshots
 📹 video camera film record camcorder entertainment
 📼 videocassette record video oldschool 90s 80s entertainment tape vcr vhs
 🔍 magnifying glass tilted left search zoom find detective icon mag magnifier pointing tool
-🔎 magnifying glass tilted right search zoom find detective icon mag magnifier pointing tool
+🔎 magnifying glass tilted right search zoom find detective icon mag magnifier pointing tool seo
 🕯️ candle fire wax light
 💡 light bulb light electricity idea comic electric
 🔦 flashlight dark camping sight night electric light tool torch
@@ -1137,7 +1138,7 @@ exit
 📚 books literature library study book pile stack
 📓 notebook stationery record notes paper study black book composition white
 📒 ledger notes paper binder book bound notebook spiral yellow
-📃 page with curl documents office paper curled curly page document
+📃 page with curl documents office paper curled curly page document license
 📜 scroll documents ancient history paper degree document parchment
 📄 page facing up documents office paper information document printed
 📰 newspaper press headline communication news paper
@@ -1162,20 +1163,20 @@ exit
 📩 envelope with arrow email communication above down downwards insert letter mail outgoing sent
 📤 outbox tray inbox email box communication letter mail sent
 📥 inbox tray email documents box communication letter mail receive
-📦 package mail gift cardboard box moving communication parcel shipping
+📦 package mail gift cardboard box moving communication parcel shipping container
 📫 closed mailbox with raised flag email inbox communication mail postbox
 📪 closed mailbox with lowered flag email communication inbox mail postbox
 📬 open mailbox with raised flag email inbox communication mail postbox
 📭 open mailbox with lowered flag email inbox communication mail no postbox
 📮 postbox email letter envelope communication mail mailbox
 🗳️ ballot box with ballot election vote voting
-✏️ pencil stationery write paper writing school study lead pencil2
+✏️ pencil stationery write paper writing school study lead pencil2 typos
 ✒️ black nib pen stationery writing write fountain ✒ fountain
 🖋️ fountain pen stationery writing write communication left lower
 🖊️ pen stationery writing write ballpoint communication left lower
 🖌️ paintbrush drawing creativity art brush communication left lower painting
 🖍️ crayon drawing creativity communication left lower
-📝 memo write documents stationery pencil paper writing legal exam quiz test study compose communication document memorandum note
+📝 memo write documents stationery pencil paper writing legal exam quiz test study compose communication document memorandum note documentation
 💼 briefcase business documents work law legal job career suitcase
 📁 file folder documents business office closed directory manilla
 📂 open file folder documents load
@@ -1185,7 +1186,7 @@ exit
 🗒️ spiral notepad memo stationery note pad
 🗓️ spiral calendar date schedule planning pad
 📇 card index business stationery rolodex system
-📈 chart increasing graph presentation stats recovery business economics money sales good success growth metrics pointing positive chart trend up upward upwards
+📈 chart increasing graph presentation stats recovery business economics money sales good success growth metrics pointing positive chart trend up upward upwards analytics
 📉 chart decreasing graph presentation stats recession business economics money sales bad failure down downwards down pointing metrics negative chart trend
 📊 bar chart graph presentation stats metrics
 📋 clipboard stationery documents
@@ -1196,13 +1197,13 @@ exit
 📏 straight ruler stationery calculate length math school drawing architect sketch edge
 📐 triangular ruler stationery math architect sketch set triangle
 ✂️ scissors stationery cut black cutting tool
-🗃️ card file box business stationery
+🗃️ card file box business stationery database
 🗄️ file cabinet filing organizing
 🗑️ wastebasket bin trash rubbish garbage toss basket can litter wastepaper
-🔒 locked security password padlock closed lock private
+🔒 locked security password padlock closed lock private privacy
 🔓 unlocked privacy security lock open padlock unlock
 🔏 locked with pen security secret fountain ink lock lock with nib privacy
-🔐 locked with key security privacy closed lock secure
+🔐 locked with key security privacy closed lock secure secret
 🔑 key lock door password gold
 🗝️ old key lock door password clue
 🔨 hammer tools build create claw handyman tool
@@ -1226,7 +1227,7 @@ exit
 🧰 toolbox tools diy fix maintainer mechanic chest tool
 🧲 magnet attraction magnetic horseshoe
 ⚗️ alembic distilling science experiment chemistry tool
-🧪 test tube chemistry experiment lab science chemist
+🧪 test tube chemistry experiment lab science chemist test
 🧫 petri dish bacteria biology culture lab biologist
 🧬 dna biologist genetics life double evolution gene helix
 🔬 microscope laboratory experiment zoomin science study investigate magnify tool
@@ -1236,7 +1237,7 @@ exit
 🩸 drop of blood period hurt harm wound bleed doctor donation injury medicine menstruation
 💊 pill health medicine doctor pharmacy drug capsule drugs sick tablet
 🩹 adhesive bandage heal aid band doctor medicine plaster
-🩺 stethoscope health doctor heart medicine
+🩺 stethoscope health doctor heart medicine healthcheck
 🚪 door house entry exit doorway front
 🛏️ bed sleep rest bedroom hotel
 🛋️ couch and lamp read chill hotel lounge settee sofa
@@ -1255,7 +1256,7 @@ exit
 🧯 fire extinguisher quench extinguish
 🛒 shopping cart trolley
 🚬 cigarette kills tobacco joint smoke activity smoking symbol
-⚰️ coffin vampire dead die death rip graveyard cemetery casket funeral box
+⚰️ coffin vampire dead die death rip graveyard cemetery casket funeral box remove
 ⚱️ funeral urn dead die death rip ashes vase
 🗿 moai rock easter island carving face human moyai statue stone
 🏧 atm sign money sales cash blue-square payment bank automated machine teller
@@ -1267,12 +1268,12 @@ exit
 🚻 restroom blue-square toilet refresh wc gender bathroom lavatory sign
 🚼 baby symbol orange-square child change changing nursery station
 🚾 water closet toilet restroom blue-square lavatory wc
-🛂 passport control custom blue-square border
+🛂 passport control custom blue-square border permissions authorization roles
 🛃 customs passport border blue-square
 🛄 baggage claim blue-square airport transport
 🛅 left luggage blue-square travel baggage bag with key locked locker suitcase
 ⚠️ warning exclamation wip alert error problem issue sign symbol
-🚸 children crossing school warning danger sign driving yellow-diamond child kids pedestrian traffic
+🚸 children crossing school warning danger sign driving yellow-diamond child kids pedestrian traffic experience usability
 ⛔ no entry limit security privacy bad denied stop circle forbidden not prohibited traffic
 🚫 prohibited forbid stop limit denied disallow circle backslash banned block crossed entry forbidden no not red restricted sign
 🚳 no bicycles no bikes bicycle bike cyclist prohibited circle forbidden not sign vehicle
@@ -1284,11 +1285,11 @@ exit
 🔞 no one under eighteen 18 drink pub night minor circle age forbidden not nsfw prohibited restriction symbol underage
 ☢️ radioactive nuclear danger international radiation sign symbol
 ☣️ biohazard danger sign
-⬆️ up arrow blue-square continue top direction black cardinal north pointing upwards
+⬆️ up arrow blue-square continue top direction black cardinal north pointing upwards upgrade
 ↗️ up right arrow blue-square point direction diagonal northeast east intercardinal north upper
 ➡️ right arrow blue-square next black cardinal direction east pointing rightwards right arrow
 ↘️ down right arrow blue-square direction diagonal southeast east intercardinal lower right arrow south
-⬇️ down arrow blue-square direction bottom black cardinal downwards down arrow pointing south
+⬇️ down arrow blue-square direction bottom black cardinal downwards down arrow pointing south downgrade
 ↙️ down left arrow blue-square direction diagonal southwest intercardinal left arrow lower south west
 ⬅️ left arrow blue-square previous back black cardinal direction leftwards left arrow pointing west
 ↖️ up left arrow blue-square point direction diagonal northwest intercardinal left arrow north upper west
@@ -1330,7 +1331,7 @@ exit
 ♒ aquarius sign purple-square zodiac astrology bearer water
 ♓ pisces purple-square sign zodiac astrology fish
 ⛎ ophiuchus sign purple-square constellation astrology bearer serpent snake zodiac
-🔀 shuffle tracks button blue-square shuffle music random arrow arrows crossed rightwards symbol twisted
+🔀 shuffle tracks button blue-square shuffle music random arrow arrows crossed rightwards symbol twisted merge
 🔁 repeat button loop record arrow arrows circle clockwise leftwards open retweet rightwards symbol
 🔂 repeat single button blue-square loop arrow arrows circle circled clockwise leftwards number once one open overlay rightwards symbol track
 ▶️ play button blue-square right direction play arrow black forward pointing right triangle triangle
@@ -1338,7 +1339,7 @@ exit
 ⏭️ next track button forward next blue-square arrow bar black double pointing right scene skip symbol triangle vertical
 ⏯️ play or pause button blue-square play pause arrow bar black double play/pause pointing right symbol triangle vertical
 ◀️ reverse button blue-square left direction arrow backward black pointing triangle
-⏪ fast reverse button play blue-square arrow black double left pointing rewind symbol triangle
+⏪ fast reverse button play blue-square arrow black double left pointing rewind symbol triangle revert
 ⏮️ last track button backward arrow bar black double left pointing previous scene skip symbol triangle vertical
 🔼 upwards button blue-square triangle direction point forward top arrow pointing red small up
 ⏫ fast up button blue-square direction top arrow black double pointing triangle
@@ -1358,20 +1359,20 @@ exit
 ♂️ male sign man boy men mars symbol
 ⚕️ medical symbol health hospital aesculapius asclepius asklepios care doctor medicine rod snake staff
 ♾️ infinity forever paper permanent sign unbounded universal
-♻️ recycling symbol arrow environment garbage trash black green logo recycle universal
+♻️ recycling symbol arrow environment garbage trash black green logo recycle universal reuse
 ⚜️ fleur de lis decorative scout new orleans saints scouts
 🔱 trident emblem weapon spear anchor pitchfork ship tool
 📛 name badge fire forbid tag tofu
 🔰 japanese symbol for beginner badge shield chevron green leaf mark shoshinsha tool yellow
 ⭕ hollow red circle circle round correct heavy large mark o
-✅ check mark button green-square ok agree vote election answer tick green heavy symbol white
+✅ check mark button green-square ok agree vote election answer tick green heavy symbol white pass tests
 ☑️ check box with check ok agree confirm black-square vote election yes tick ballot checkbox mark
 ✔️ check mark ok nike answer yes tick heavy
 ✖️ multiplication sign math calculation cancel heavy multiply symbol x
 ❌ cross mark no delete remove cancel red multiplication multiply x
 ❎ cross mark button x green-square no deny negative square squared
-➕ plus sign math calculation addition more increase heavy symbol
-➖ minus sign math calculation subtract less heavy symbol
+➕ plus sign math calculation addition more increase heavy symbol add
+➖ minus sign math calculation subtract less heavy symbol remove
 ➗ division sign divide math calculation heavy symbol
 ➰ curly loop scribble draw shape squiggle curl curling
 ➿ double curly loop tape cassette curl curling voicemail
@@ -1476,7 +1477,7 @@ exit
 🔳 white square button shape input geometric outlined
 🔲 black square button shape input frame geometric
 🏁 chequered flag contest finishline race gokart checkered finish girl grid milestone racing
-🚩 triangular flag mark milestone place pole post red
+🚩 triangular flag mark milestone place pole post red flag
 🎌 crossed flags japanese nation country border activity celebration cross flag two
 🏴 black flag pirate waving
 🏳️ white flag losing loser lost surrender give up fail waving
@@ -1677,6 +1678,7 @@ exit
 🇶🇦 flag qatar qa flag nation country banner qatar qatari
 🇷🇪 flag reunion réunion flag nation country banner reunion réunionnais
 🇷🇴 flag romania ro flag nation country banner romania romanian
+🇨🇶 flag sark cq flag banner
 🇷🇸 flag serbia rs flag nation country banner serbia serbian flag
 🇷🇺 flag russia russian federation flag nation country banner russia indicator letters regional ru symbol
 🇷🇼 flag rwanda rw flag nation country banner rwanda rwandan
@@ -1835,7 +1837,7 @@ exit
 🫅 person with crown royalty power monarch noble regal
 🫃 pregnant man baby belly bloated full
 🫄 pregnant person baby belly bloated full
-🧌 troll mystical monster fairy fantasy tale
+🧌 troll mystical monster fairy fantasy tale shrek
 🪸 coral ocean sea reef
 🪷 lotus flower calm meditation buddhism hinduism india purity vietnam
 🪹 empty nest bird nesting
@@ -1860,7 +1862,7 @@ exit
 🩶 grey heart silver monochrome
 🫷 leftwards pushing hand highfive pressing stop
 🫸 rightwards pushing hand highfive pressing stop
-🫎 moose shrek canada sweden sven cool
+🫎 moose canada sweden sven cool
 🫏 donkey eeyore mule
 🪽 wing angel birds flying fly
 🐦‍⬛ black bird crow
@@ -1903,3 +1905,10 @@ exit
 🍋‍🟩 lime fruit acidic citric
 🍄‍🟫 brown mushroom toadstool fungus
 ⛓️‍💥 broken chain constraint break
+🫩 face with bags under eyes tired sleepy exhausted
+🫆 fingerprint
+🪾 leafless tree
+🫜 root vegetable radish
+🪉 harp music instrument
+🪏 shovel tool dig
+🫟 splatter
