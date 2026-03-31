@@ -1,4 +1,4 @@
-# wofi-emoji 🥞
+# hyprpicker-emoji 🥞
 
 Simple emoji selector for Wayland using [hyprlauncher](https://wiki.hypr.land/Hypr-Ecosystem/hyprlauncher/) that relies on [wtype](https://github.com/atx/wtype) and [wl-clipboard](https://github.com/bugaevc/wl-clipboard).
 
