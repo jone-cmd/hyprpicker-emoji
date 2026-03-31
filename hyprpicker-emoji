@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-EMOJI="$(sed '1,/^### DATA ###$/d' $0 | hyprlauncher -m | cut -d ' ' -f 1 | tr -d '\n')"
+RAW_EMOJI="$(sed '1,/^### DATA ###$/d' $0 | hyprlauncher -m)"
+if [[ "$RAW_EMOJI" == "Exited without selection" ]]; then
+  exit 1
+fi
+EMOJI="$(echo "$RAW_EMOJI" | cut -d ' ' -f 1 | tr -d '\n')"
 wtype "$EMOJI"
 wl-copy "$EMOJI"
 exit
